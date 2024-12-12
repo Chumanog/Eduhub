@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Resource Hub</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link to CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#home">EduHub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#categories-section">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="text-center py-5">
+        <div class="container">
+            <h1>Welcome Future Programmers</h1>
+            <p>“Education is the most powerful weapon which you can use to change the world.” – Nelson Mandela</p>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Welcome to EduHub, where learning meets exploration! Discover a wealth of educational resources designed to empower learners of all ages.</p>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="py-5 text-center">
+        <div class="container">
+            <h2>Featured Resources</h2>
+            <p>Explore our top educational resources curated for you!</p>
+            
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/html.png" class="card-img-top" alt="Resource 1">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. </p>
+                            <a href="#" class="btn btn-dark">View Resource</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/css.png" class="card-img-top" alt="Resource 2">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.</p>
+                            <a href="#" class="btn btn-dark">View Resource</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/bootstrap.jpg" class="card-img-top" alt="Resource 3">
+                        <div class="card-body">
+                            <h5 class="card-title">BootStrap</h5>
+                            <p class="card-text">Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites.</p>
+                            <a href="#" class="btn btn-dark">View Resource</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories-section" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Categories</h2>
+            
+            <div id="categories" class="row">
+                <!-- Example category items -->
+                <div class='col-md-4'>
+                    <h3>FrontEnd Development</h3>
+                    <p>Resources for learning front-end development concepts.</p>
+                </div>
+                <div class='col-md-4'>
+                    <h3>BackEnd Development</h3>
+                    <p>Explore back-end development and server-side programming.</p>
+                </div>
+                <div class='col-md-4'>
+                    <h3>Full Stack Development</h3>
+                    <p>Dive into full-stack development with comprehensive resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Resources Section -->
+    <section id="resources" class="py-5 text-center">
+        <div class="container">
+            <h2>Sample Resources</h2>
+
+            <!-- Resource Bar 1 -->
+            <div class="resource-bar">
+                <div class="bar-title">Lessons</div>
+                <div class="bar" style="width: 90%;"></div>
+            </div>
+
+            <!-- Resource Bar 2 -->
+            <div class="resource-bar">
+                <div class="bar-title">Chatgpt</div>
+                <div class="bar" style="width: 70%;"></div>
+            </div>
+
+            <!-- Resource Bar 3 -->
+            <div class="resource-bar">
+                <div class="bar-title">Perplexity</div>
+                <div class="bar" style="width: 50%;"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to EduHub, your go-to destination for a wide range of educational resources. Our mission is to empower learners of all ages by providing accessible, high-quality materials that inspire curiosity and foster a love for learning.</p>
+            
+            <h3>Our Mission</h3>
+            <p>To provide accessible and quality educational resources for learners everywhere.</p>
+
+            <h3>Our Vision</h3>
+            <p>We envision a world where everyone has access to the knowledge and tools they need to succeed in their educational journey.</p>
+
+            <h3>Our Values</h3>
+            <ul class="list-unstyled">
+                <li><strong>Inclusivity:</strong> We believe in providing resources that cater to diverse learning needs.</li>
+                <li><strong>Quality:</strong> We strive to offer only the best educational materials curated from reliable sources.</li>
+                <li><strong>Community:</strong> We aim to build a supportive community of learners and educators who share knowledge and experiences.</li>
+            </ul>
+
+            <h3>Join Us!</h3>
+            <p>Whether you're a student, educator, or lifelong learner, we invite you to explore our resources and join our community in making education accessible for all!</p>
+        </div>
+    </section>
+
+
+    <!-- Contact Information Section -->
+    <section id='contact' class='py-5 text-center'>
+        <div class='container'>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+
+            <!-- Contact Form -->
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class='text-center py-4 bg-dark'>
+        &copy; 2024 Educational Resource Hub. All rights reserved.<br>
+        <small>For educational purposes only.</small>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+
+</body>
+</html>
